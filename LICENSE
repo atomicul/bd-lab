@@ -2,6 +2,11 @@ MIT No Attribution
 
 Copyright 2026 Mihai-Alexandru Soare
 
+The terms below apply to all files in this repository EXCEPT `hr_create.sql` and
+`hr_insert.sql`, which are Copyright Cezara Benegui and are redistributed here with
+permission for educational use. All rights to those two files are reserved by their
+author.
+
 Permission is hereby granted, free of charge, to any person obtaining a copy of this
 software and associated documentation files (the "Software"), to deal in the Software
 without restriction, including without limitation the rights to use, copy, modify,
