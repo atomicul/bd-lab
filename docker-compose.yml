@@ -6,4 +6,5 @@ services:
     environment:
       APP_USER: ${APP_USER:-hr}
       APP_USER_PASSWORD: ${APP_USER_PASSWORD:?APP_USER_PASSWORD must be set in .env}
+      ORACLE_DATABASE: ${ORACLE_DATABASE:-hrdb}
 
