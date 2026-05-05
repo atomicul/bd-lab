@@ -1,0 +1,9 @@
+services:
+  oracle:
+    image: ghcr.io/atomicul/bd-lab:latest
+    ports:
+      - "1521:1521"
+    environment:
+      APP_USER: ${APP_USER:-hr}
+      APP_USER_PASSWORD: ${APP_USER_PASSWORD:?APP_USER_PASSWORD must be set in .env}
+
