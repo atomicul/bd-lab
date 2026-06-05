@@ -1,6 +1,3 @@
-drop table works_on;
-drop table project;
-
 create table PROJECT(
 	project_id number(4) primary key, 
 	project_name varchar2(30), 
