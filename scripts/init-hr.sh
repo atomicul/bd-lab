@@ -5,6 +5,7 @@ sqlplus -s "${APP_USER}/${APP_USER_PASSWORD}@//localhost:1521/${ORACLE_DATABASE:
 WHENEVER SQLERROR EXIT FAILURE
 @/opt/hr/hr_create.sql
 @/opt/hr/hr_insert.sql
+@/opt/hr/hr_project.sql
 COMMIT;
 EXIT;
 SQL
